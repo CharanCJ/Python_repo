@@ -1,2 +1,2 @@
-# testrepo
-This is test repository.
+# Python
+This is Python repository.
