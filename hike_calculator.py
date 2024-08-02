@@ -10,7 +10,7 @@ class sal:
             total_sal = round(float(cur_sal) + float(increment_sal))
             cur_sal = total_sal
             now = int(now) + 1
-            print("In the year",now,"Expected Salary is:", total_sal)
+            print("In the year",now,"Expected Salary is:", "{:,}".format(total_sal))
 
 sal = sal()
 sal.est_sal(2550000,6,12)
